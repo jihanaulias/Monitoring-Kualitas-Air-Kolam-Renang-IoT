@@ -204,14 +204,14 @@ if($selected_id>0){
         Kolam ditampilkan: <b><?= e($selected_name) ?></b>
       </p>
 
-      <label><b>Tanggal:</b></label>
+      <label><b>Filter Tanggal:</b></label>
       <input type="text" id="dateFilter" placeholder="YYYY-MM-DD" style="padding:8px; width:140px;">
       <button class="btn" type="button" onclick="applyDate()">Filter</button>
       <button class="btn" type="button" onclick="clearDate()">Reset</button>
     </div>
 
     <div class="card">
-      <h3>Data Sensor (Realtime)</h3>
+      <h3>Data Sensor</h3>
       <table>
         <thead>
           <tr>
@@ -287,3 +287,4 @@ if($selected_id>0){
 
   </body>
 </html>
+
